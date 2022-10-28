@@ -1,5 +1,5 @@
 {
-  "name": "@kaiky-ignite-ui/tokens",
+  "name": "@kaiky-ignite-ui/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,6 +14,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@kaiky-ignite-ui/tokens": "*",
     "@kaiky-ignite-ui/ts-config": "*",
     "@kaiky-ignite-ui/eslint-config": "*",
     "tsup": "^6.3.0",

@@ -1,0 +1,6 @@
+{
+  "extends": "@kaiky-ignite-ui/ts-config/react.json",
+  "include": [
+    "src"
+  ],
+}
