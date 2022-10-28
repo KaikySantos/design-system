@@ -26,9 +26,11 @@
     "vite": "^3.1.4"
   },
   "dependencies": {
+    "@kaiky-ignite-ui/eslint-config": "*",
+    "@kaiky-ignite-ui/ts-config": "*",
     "@kaiky-ignite-ui/react": "*",
     "@kaiky-ignite-ui/tokens": "*",
-    "@kaiky-ignite-ui/eslint-config": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
