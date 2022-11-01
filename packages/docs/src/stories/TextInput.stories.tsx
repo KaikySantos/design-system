@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Box, Text, TextInput, TextInputProps } from '@kaiky-ignite-ui/react'
 
 export default {
-  title: 'Form/Textt Input',
+  title: 'Form/Text Input',
   component: TextInput,
 
   args: {},
