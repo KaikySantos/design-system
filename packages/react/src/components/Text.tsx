@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react'
+import { ComponentProps, ElementType } from 'react'
 import { styled } from '../styles'
 
 export const Text = styled('p', {
@@ -7,7 +7,7 @@ export const Text = styled('p', {
   margin: 0,
   color: '$gray100',
 
-  variant: {
+  variants: {
     size: {
       xxs: { fontSize: '$xxs' },
       xs: { fontSize: '$xs' },
@@ -15,13 +15,13 @@ export const Text = styled('p', {
       md: { fontSize: '$md' },
       lg: { fontSize: '$lg' },
       xl: { fontSize: '$xl' },
-      '2xl': { fontSize: '$' },
-      '4xl': { fontSize: '$' },
-      '5xl': { fontSize: '$' },
-      '6xl': { fontSize: '$' },
-      '7xl': { fontSize: '$' },
-      '8xl': { fontSize: '$' },
-      '9xl': { fontSize: '$' },
+      '2xl': { fontSize: '$2xl' },
+      '4xl': { fontSize: '$4xl' },
+      '5xl': { fontSize: '$5xl' },
+      '6xl': { fontSize: '$6xl' },
+      '7xl': { fontSize: '$7xl' },
+      '8xl': { fontSize: '$8xl' },
+      '9xl': { fontSize: '$9xl' },
     },
   },
 
@@ -31,7 +31,7 @@ export const Text = styled('p', {
 })
 
 export interface TextProps extends ComponentProps<typeof Text> {
-  //
+  as?: ElementType
 }
 
 Text.displayName = 'Text'

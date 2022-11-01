@@ -1,16 +1,19 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps } from '@kaiky-ignite-ui/react'
+import { Box, BoxProps, Text } from '@kaiky-ignite-ui/react'
 
 export default {
   title: 'Surfaces/Box',
   component: Box,
 
   args: {
-    children: (
-      <>
-        <span>Testando o elemento Box</span>
-      </>
-    ),
+    children: <Text>Testando o elemento Box</Text>,
+  },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
   },
 } as Meta<BoxProps>
 
