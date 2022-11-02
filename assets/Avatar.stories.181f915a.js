@@ -1,0 +1,2 @@
+import{A as t}from"./index.841adc1b.js";import"./index.e26526c3.js";import"./iframe.9ce3f3bb.js";import"./index.fe6f22c7.js";import"./jsx-runtime.639cb292.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/kaikySantos.png",alt:"Kaiky Santos"},argTypes:{src:{control:{type:"text"}}}},c={},m={args:{src:void 0}},n=["Primary","WithFallback"];export{c as Primary,m as WithFallback,n as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.181f915a.js.map

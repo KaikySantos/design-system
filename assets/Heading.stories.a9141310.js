@@ -1,0 +1,2 @@
+import{H as o}from"./index.841adc1b.js";import"./index.e26526c3.js";import"./iframe.9ce3f3bb.js";import"./index.fe6f22c7.js";import"./jsx-runtime.639cb292.js";const m={title:"Typography/Heading",component:o,args:{size:"md",children:"Custom title"},argTypes:{size:{options:["sm","md","lg","2xl","4xl","5xl","6xl"],control:{type:"inline-radio"}}}},n={},a=["Primary"];export{n as Primary,a as __namedExportsOrder,m as default};
+//# sourceMappingURL=Heading.stories.a9141310.js.map
